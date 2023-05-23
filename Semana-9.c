@@ -22,3 +22,11 @@ void imprimirMatriz(int **matriz, int filas, int columnas) {
         }
     }
 }
+int main() {
+    int filas, columnas;
+
+    printf("Ingrese el número de filas de la matriz: ");
+    scanf("%d", &filas);
+
+    printf("Ingrese el número de columnas de la matriz: ");
+    scanf("%d", &columnas);

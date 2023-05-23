@@ -58,3 +58,17 @@ int main() {
      // Imprimir la matriz transpuesta
     printf("\nMatriz transpuesta:\n");
     imprimirMatriz(transpuesta, columnas, filas);
+
+    // Liberar la memoria utilizada por las matrices
+    for (int i = 0; i < filas; i++) {
+        free(matriz[i]);
+    }
+    free(matriz);
+
+    for (int i = 0; i < columnas; i++) {
+        free(transpuesta[i]);
+    }
+    free(transpuesta);
+
+    return 0;
+}

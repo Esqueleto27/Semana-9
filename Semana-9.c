@@ -42,3 +42,6 @@ int main() {
             matriz[i][j] = generarAleatorio(0, 100);
         }
     }
+    // Imprimir la matriz original
+    printf("Matriz original:\n");
+    imprimirMatriz(matriz, filas, columnas);

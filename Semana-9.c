@@ -54,3 +54,7 @@ int main() {
 
     // Calcular la matriz transpuesta
     calcularTranspuesta(matriz, transpuesta, filas, columnas);
+
+     // Imprimir la matriz transpuesta
+    printf("\nMatriz transpuesta:\n");
+    imprimirMatriz(transpuesta, columnas, filas);

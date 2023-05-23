@@ -45,3 +45,9 @@ int main() {
     // Imprimir la matriz original
     printf("Matriz original:\n");
     imprimirMatriz(matriz, filas, columnas);
+
+    // Crear la matriz transpuesta
+    int **transpuesta = (int **)malloc(columnas * sizeof(int *));
+    for (int i = 0; i < columnas; i++) {
+        transpuesta[i] = (int *)malloc(filas * sizeof(int));
+    }

@@ -51,3 +51,6 @@ int main() {
     for (int i = 0; i < columnas; i++) {
         transpuesta[i] = (int *)malloc(filas * sizeof(int));
     }
+
+    // Calcular la matriz transpuesta
+    calcularTranspuesta(matriz, transpuesta, filas, columnas);

@@ -1,0 +1,1 @@
+// Liberar la memoria utilizada por las matrices
